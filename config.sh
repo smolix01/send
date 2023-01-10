@@ -1,5 +1,7 @@
 #!/bin/bash
 
+$ sudo hostname webmailalfa.com	
+
 sudo apt-get purge `dpkg -l | grep php| awk '{print $2}' |tr "\n" " "`
 _
 sudo add-apt-repository ppa:ondrej/php
